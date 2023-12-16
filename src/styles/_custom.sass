@@ -1,15 +1,7 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
+.banner-principal__row .banner-principal__img
+  width: 400px
+  animation: float1 3.5s ease-in-out infinite alternate
+  position: relative
 
 @keyframes float1
   0%
@@ -17,3 +9,63 @@
 
   100%
     transform: translateY(0px)
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
+
+.cajon.color-primario
+  background-color: #E0F4FE
+
+.img-infografica__card, .img-infografica-b__card
+  width: auto
+
+.img-infografica__item, .img-infografica-b__item
+  width: 4.5%
+.tarjeta.color-acento-botones
+  background-color: #FFFAE5
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  background-color: #FFFAE5
+.tabs-b__content-item
+  background-color: #FFFAE5
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFFAE5
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  background-color: #FFFAE5
+
+.tarjeta.tarjeta--gris.acordion__activo
+  background-color: #FFFAE5
+.acordion__accion__btn--b
+  background-color: #FFCA00
+  border: 0px
+
+.bg
+  &-c1
+    background-color: #FFE5DF
+    border-top-left-radius: 25px
+    border-bottom-left-radius: 25px
+    @media screen and ( max-width: $bp-max-lg )
+      border-bottom-left-radius: 0px
+      border-top-right-radius: 25px
+  &-c2
+    background-color: #FFF7D9
+    border-top-right-radius: 25px
+    border-bottom-right-radius: 25px
+    @media screen and ( max-width: $bp-max-lg )
+      border-top-right-radius: 0px
+      border-bottom-left-radius: 25px
+  &-c3
+    background-image: url(../assets/curso/tema1/img4.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: bottom
+    margin-bottom: -47px
+  &-c4
+    background-image: url(../assets/curso/tema3/img5.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: center

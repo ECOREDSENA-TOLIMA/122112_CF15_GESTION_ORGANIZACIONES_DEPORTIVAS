@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    componenteFormativo: 'Estados financieros básicos',
+    descripcionCurso:
+      'En este componente formativo, se abordarán los aspectos relacionados con los estados financieros básicos en las organizaciones; asimismo, se dará a conocer el balance del evento, proyecciones financieras, indicadores, cuentas de resultados y, como elemento fundamental, la ética en el manejo de la información contable.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -31,27 +22,32 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estados financieros básicos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estructura y proyecciones del estado financiero',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Indicadores',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Notas a los estados financieros',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Ética en el manejo de la información contable',
         desarrolloContenidos: true,
       },
     ],
@@ -86,7 +82,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/material.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -102,31 +98,71 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Estados financieros básicos.',
+      referencia:
+        'Actualícese Video. (2019). <i>Estados financieros que deben presentar las empresas de los grupos 1, 2 y 3 [Video]</i>. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/ZMzzJpQhhTU',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '5. Ética en el manejo de la información contable.',
+      referencia:
+        'Consejo de Normas Internacionales de Ética para Contadores. (2009). <i>Código de ética para profesionales de la contabilidad</i>. International Federation of Accountants.',
+      tipo: 'Documento',
+      link:
+        'https://www.ifac.org/system/files/publications/files/codigo-de-etica-para-profesionales-de-la-contabilidad.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Balance',
+      significado:
+        'informe financiero contable que refleja la situación económica y financiera de una empresa en un momento determinado.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Cuentas',
+      significado:
+        'elemento básico y central en la contabilidad y en los servicios de pagos. También es la mínima unidad contable capaz de resumir un hecho económico.',
+    },
+    {
+      termino: 'Finanzas',
+      significado: 'conjunto de actividades que tienen relación con el dinero.',
+    },
+    {
+      termino: 'Indicadores',
+      significado:
+        'instrumento que provee información sobre una determinada condición o el logro de una cierta situación, actividad o resultado.',
+    },
+    {
+      termino: 'Proyección',
+      significado:
+        'pronóstico de diversas variables económicas que parten de un análisis macroeconómico con base en la información estadística del sector real, fiscal, balanza de pagos e internacional.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Ayala, S. y Fino, G. (2015). <i>Contabilidad básica general, un enfoque administrativo y de control interno</i>. Corporación Universitaria Republicana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hatzacorsian, V. (2003). <i>Fundamentos de Contabilidad</i>. Thomson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ibarra, J., Granado, M. y Amador, M. (2004). <i>Principios de la Contabilidad</i>. Universidad de Guadalajara',
+      link: '',
+    },
+    {
+      referencia:
+        'Romero, J. (2007). <i>Principios de Contabilidad</i>. McGraw-Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sevilla, A. (2015). <i>Estados financieros</i>. Economipedia.',
       link: '',
     },
   ],
@@ -136,14 +172,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -151,10 +186,41 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Tatiana Cristina Vargas Ossa',
+          cargo: 'Instructora',
+          centro: 'Regional Antioquia - Centro de servicios de Salud',
+        },
+        {
+          nombre: 'Camilo Andrés Aramburo Parra',
+          cargo: 'Profesional experto temático',
+          centro: 'Regional Antioquia - Centro de servicios de Salud',
+        },
+        {
+          nombre: 'Paola Andrea Quintero Aguilar',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Bogotá - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuador Instruccional',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor Metodológico',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
@@ -162,28 +228,21 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñador web',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Jhon Jairo Urueta Alvarez',
+          cargo: 'Desarrollador fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Nombre centro de formación',
         },
       ],
     },
@@ -191,22 +250,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Nombre validador',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Nombre centro formación',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Nombre validador',
+          cargo: 'Validación de contenidos accesibles',
+          centro: 'Nombre centro formación',
         },
       ],
     },
