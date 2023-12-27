@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: black") 2
       h1 Estructura y proyecciones del estado financiero
-    figure
+    figure(data-aos="fade-right")
       img(src='@/assets/curso/tema2/img1.png', style="width: auto" ,alt='').m-auto
-    p Para crear una estructura y proyección financiera sólida, es fundamental llevar a cabo un análisis exhaustivo y comprender en profundidad la situación financiera actual de la organización. Este análisis servirá como base para estimar y construir una proyección financiera precisa.
-    p.mb-5 A continuación, se detalla la importancia de la estructura y proyección de estados financieros, resaltando la necesidad de comprender la información contable y su utilidad en la toma de decisiones estratégicas en proyecciones financieras:
-    TabsB.color-acento-contenido.mb-5
+    p(data-aos="fade-down") Para crear una estructura y proyección financiera sólida, es fundamental llevar a cabo un análisis exhaustivo y comprender en profundidad la situación financiera actual de la organización. Este análisis servirá como base para estimar y construir una proyección financiera precisa.
+    p.mb-5(data-aos="fade-down") A continuación, se detalla la importancia de la estructura y proyección de estados financieros, resaltando la necesidad de comprender la información contable y su utilidad en la toma de decisiones estratégicas en proyecciones financieras:
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Análisis financiero" :icono="require('@/assets/curso/tema2/img1.svg')")
         .row.justify-content-center
           .col-lg-5.mb-4.mb-lg-0
@@ -43,12 +43,12 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/tema2/img4.svg', style="width: auto" ,alt='').m-auto
-    p.mb-5 Las proyecciones del estado financiero dependen del tipo de organización, mientras más consolidadas estén las proyecciones, serán a un mayor tiempo, y se deben desarrollar en conjunto con el contador de la organización; los principales insumos para su realización son: los estados de resultados, el análisis de las ventas y el análisis del mercado. A continuación, se relacionan algunos pasos para realizar la proyección financiera de una organización:
+    p.mb-5(data-aos="fade-right") Las proyecciones del estado financiero dependen del tipo de organización, mientras más consolidadas estén las proyecciones, serán a un mayor tiempo, y se deben desarrollar en conjunto con el contador de la organización; los principales insumos para su realización son: los estados de resultados, el análisis de las ventas y el análisis del mercado. A continuación, se relacionan algunos pasos para realizar la proyección financiera de una organización:
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img2.png', style="width: auto" ,alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-primario
           p.mb-0(numero="1" titulo="Conocer la organización") Para analizar el mercado y la capacidad de producción, es fundamental tener las cifras de la empresa y trabajar sobre datos reales; esto permitirá analizar cómo está la organización tanto dentro como fuera de ella.
           p.mb-0(numero="2" titulo="Determinar los tiempos de proyección") Las proyecciones financieras se pueden elaborar mensual, trimestral, semestral o anualmente; algunas empresas realizan su proyección a 5 o 10 años, dependiendo del tiempo que lleven en el mercado y su consolidación en el mismo.
@@ -60,7 +60,7 @@
           p.mb-0(numero="8" titulo="Elaborar un balance general") Con el cual se establecen todos los activos y pasivos de la empresa. Se debe tener presente que las cantidades proyectadas deben coincidir con los rubros proyectados; si la proyección es anual, al aumentar las ventas, también aumentarán las cuentas por cobrar, los clientes y el financiamiento de los rubros para el incremento de las ventas.
           p.mb-0(numero="9" titulo="Proyectar el flujo de efectivo") Teniendo el estado de resultados y el balance general, se puede elaborar una proyección con base en el efectivo y la liquidez con los que cuenta la empresa.
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .cajon.color-primario.p-4
           p.mb-0 Es importante tener en cuenta que existen diferentes herramientas digitales, como los #[i softwares] contables o administrativos, los cuales facilitan la labor de análisis y proyecciones de la organización.
 
