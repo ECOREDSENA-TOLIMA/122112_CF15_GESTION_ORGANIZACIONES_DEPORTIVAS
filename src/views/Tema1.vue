@@ -44,14 +44,15 @@
     p.mb-5(data-aos="fade-down") La estimación directa muestra el efectivo neto de las operaciones, esta variable es muy importante para conocer la situación de la empresa, ya que refleja su liquidez. En los estados de flujos de efectivo, se muestran las fuentes, regularidad y uso de efectivo. A continuación, se invita a explorar la Figura1, que nos presenta los estados financieros básicos.
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-up")
-        .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 1]. Estados financieros básicos
+        .titulo-sexto.color-acento-contenido.offset-0
+          h5 Figura 1.
+          span  #[i  Estados financieros básicos]
         figure.d-none.d-lg-block
           img(src='@/assets/curso/tema1/img3.svg', style="width: auto" ,alt='').m-auto
         figure.d-block.d-lg-none
           img(src='@/assets/curso/tema1/img3m.svg', style="width: auto" ,alt='').m-auto
     p.mb-5(data-aos="fade-right") En los estados financieros básicos, se pueden mencionar algunas de las características principales que incluyen el balance general y el estado de resultados. A continuación, se invita a revisar la infografía que contiene estas características.
-    h2.text-center.mb-5(data-aos="fade-down") #[b Principales características de estados financieros básicos]
+    h3.text-center.mb-5(data-aos="fade-down") #[b Principales características de estados financieros básicos]
     .row.bg-c3
       .col-12
         .p-5

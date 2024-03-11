@@ -13,7 +13,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La ética es una forma de regular las actividades que desarrolla el ser humano y, por supuesto, la labor profesional. En el caso específico de la contabilidad, existe un Código de Ética Internacional, su sigla en inglés es IFAC, que traduce Federación Internacional de Contadores, donde se tienen unas normas y principios para mantener su ejercicio en los más altos estándares de calidad.
     .row.bg-c6
-      .col-12
+      .col-12.desktop
         .px-5
           p.mb-5(data-aos="fade-right") En Colombia, la Ley 43 de 1990, en su Capítulo IV, Título I, establece los principios que constituyen el fundamento esencial para el desarrollo de normas sobre ética de la contaduría. A continuación, se invita a revisar el siguiente recurso.
           .row.justify-content-center
@@ -52,6 +52,9 @@
                 .tarjeta.color-acento-botones.p-3(x="33%" y="33.3%" numero="+")
                   p #[b Conducta ética]
                   p.mb-0 Función social enmarcada en la moral universal.
+      .col-12.movil
+        figure
+          img(src='@/assets/curso/tema5/img3.svg', style="width: auto" ,alt='').m-auto
 
 
 </template>

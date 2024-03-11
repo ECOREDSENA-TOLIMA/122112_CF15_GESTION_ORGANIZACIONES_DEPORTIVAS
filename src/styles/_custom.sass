@@ -80,9 +80,21 @@
   &-c5
     background-color: #E9EDFF
     margin-inline: -3.2rem !important
-  &-c6
-    background-image: url(../assets/curso/tema5/img1.svg)
-    margin-inline: -3.2rem !important
-    background-repeat: no-repeat
-    background-position: bottom
-    margin-bottom: -48px
+
+
+//CONTROLAR LAS IMAGENES EN MOVIL
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+  .mts
+    margin-top: 0.25rem  
+ 
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+  .mts
+    margin-top: -1.35rem
