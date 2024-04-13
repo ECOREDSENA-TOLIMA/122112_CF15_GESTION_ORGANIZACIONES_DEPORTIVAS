@@ -165,20 +165,26 @@ export default {
         'Sevilla, A. (2015). <i>Estados financieros</i>. Economipedia.',
       link: '',
     },
+    {
+      referencia:
+        'Ministerio de Educación. (2003). Ley 43 de 1990. Recuperado de ',
+      link:
+        'https://www.mineducacion.gov.co/1621/articles-104547_archivo_pdf.pdf  ',
+    },
   ],
   creditos: [
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -188,39 +194,50 @@ export default {
         {
           nombre: 'Tatiana Cristina Vargas Ossa',
           cargo: 'Instructora',
-          centro: 'Regional Antioquia - Centro de servicios de Salud',
+          centro: 'Centro de servicios de salud- Regional Antioquia',
         },
         {
           nombre: 'Camilo Andrés Aramburo Parra',
-          cargo: 'Profesional experto temático',
-          centro: 'Regional Antioquia - Centro de servicios de Salud',
+          cargo: 'Experto temático',
+          centro: 'Centro de servicios de salud- Regional Antioquia',
         },
         {
           nombre: 'Paola Andrea Quintero Aguilar',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Regional Bogotá - Centro de Gestión Industrial',
+          cargo: 'Diseño instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Bogotá',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable equipo de desarrollo curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Revisora Metodológica y Pedagógica',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          cargo: 'Asesoría metodológica y pedagógica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Darío González',
           cargo: 'Corrección de estilo',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología- Regional Distrito Capital',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Adecuador Instruccional',
           centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesor Metodológico',
+          cargo: 'Metodología para la formación virtual',
           centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Evaluación instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -228,21 +245,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          nombre: 'Luis Fernando Botero Mendoza',
           cargo: 'Diseñador web',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Jhon Jairo Urueta Alvarez',
+          nombre: 'Veimar Celis Meléndez',
           cargo: 'Desarrollador fullstack',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Laura Giselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -250,14 +265,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Jorge Eduardo Rueda Peña',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validación de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },

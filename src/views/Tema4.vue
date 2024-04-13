@@ -8,9 +8,19 @@
       h1 Notas a los estados financieros
     .row.mb-4
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Son las aclaraciones que se hacen para precisar o aclarar algo de los estados financieros; estos son textos aclaratorios que se adjuntan a los estados financieros. El objetivo de estas notas es brindar los elementos necesarios para que quienes realicen las consultas de los estados financieros comprendan claramente lo que allí está descrito. La contabilidad, los estados financieros y las notas de los estados financieros son responsabilidad de la empresa, pero las notas las realizan los profesionales que elaboran los estados financieros; las notas deben incluir un resumen de las políticas contables significativas que la entidad ha utilizado para preparar su información; cada entidad debe incluir la información necesaria, de forma que se permita entender:
-        figure
-          img(src='@/assets/curso/tema4/img1.svg', style="width: auto" ,alt='').m-auto
+        p Son las aclaraciones que se hacen para precisar o aclarar algo de los estados financieros; estos son textos aclaratorios que se adjuntan a los estados financieros. El objetivo de estas notas es brindar los elementos necesarios para que quienes realicen las consultas de los estados financieros comprendan claramente lo que allí está descrito. La contabilidad, los estados financieros y las notas de los estados financieros son responsabilidad de la empresa, pero las notas las realizan los profesionales que elaboran los estados financieros; las notas deben incluir un resumen de las políticas contables significativas que la entidad ha utilizado para preparar su información; cada entidad debe incluir la información necesaria, de forma que se permita entender:          
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-12.mb-1
+            figure
+              img(src='@/assets/curso/tema4/img1_0.png', style="width: auto" ,alt='').m-auto
+          .col-lg-6            
+            figure
+              img(src='@/assets/curso/tema4/img1_1.png', style="width: auto" ,alt='').m-auto
+              p.fleroja La forma en que se han elaborado los informes.
+          .col-lg-6            
+            figure
+              img(src='@/assets/curso/tema4/img1_2.png', style="width: auto" ,alt='').m-auto
+              p.fleazul La situación financiera de la entidad.       
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/img1.png', style="width: auto" ,alt='').m-auto

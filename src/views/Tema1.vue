@@ -48,10 +48,10 @@
           h5 Figura 1.
           span  #[i  Estados financieros básicos]
         figure.d-none.d-lg-block
-          img(src='@/assets/curso/tema1/img3.svg', style="width: auto" ,alt='').m-auto
+          img(src='@/assets/curso/tema1/img3.svg', style="width: auto" ,alt='En la figura 1 se muestran los componentes de un estado financiero, tales como el balance general, estados de resultados, estados de flujo de efectivo, estados de cambio de patrimonio neto y memoria.').m-auto
         figure.d-block.d-lg-none
-          img(src='@/assets/curso/tema1/img3m.svg', style="width: auto" ,alt='').m-auto
-    p.mb-5(data-aos="fade-right") En los estados financieros básicos, se pueden mencionar algunas de las características principales que incluyen el balance general y el estado de resultados. A continuación, se invita a revisar la infografía que contiene estas características.
+          img(src='@/assets/curso/tema1/img3m.svg', style="width: auto" ,alt='En la figura 1 se muestran los componentes de un estado financiero, tales como el balance general, estados de resultados, estados de flujo de efectivo, estados de cambio de patrimonio neto y memoria.').m-auto
+    p.mb-5(data-aos="fade-right") En los estados financieros básicos, se pueden mencionar algunas de las características principales que incluyen el balance general y el estado de resultados. A continuación, se presentan estas características: 
     h3.text-center.mb-5(data-aos="fade-down") #[b Principales características de estados financieros básicos]
     .row.bg-c3
       .col-12
@@ -61,13 +61,23 @@
               ImagenInfografica.color-secundario
                 template(v-slot:imagen)
                   figure
-                    img(src='@/assets/curso/tema1/img5.svg', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/tema1/img5.svg', alt='Balance General')
                 .tarjeta.color-acento-botones.p-3(x="23.5%" y="24.6%" numero="1")
-                  figure
-                    img(src='@/assets/curso/tema1/img6.svg', style="width: 900px" ,alt='').m-auto
+                  .row.justify-content-center.mb-5
+                    .col-lg-10(data-aos="fade-up")
+                      .titulo-sexto.color-acento-contenido.offset-0
+                        h5 Figura 2.
+                        span  #[i  Componentes del balance general ]
+                    figure
+                      img(src='@/assets/curso/tema1/img6.svg', style="width: 900px" ,alt='En la Figura 2 se muestran los principales componentes de un balance general, que incluyen el activo, pasivo y patrimonio.').m-auto
                 .tarjeta.color-acento-botones.p-3(x="76.2%" y="76.6%" numero="2")
-                  figure
-                    img(src='@/assets/curso/tema1/img7.svg', style="width: 900px" ,alt='').m-auto
+                  .row.justify-content-center.mb-5
+                    .col-lg-10(data-aos="fade-up")
+                      .titulo-sexto.color-acento-contenido.offset-0
+                        h5 Figura 3.
+                        span  #[i  Componentes del estado de resultados  ]
+                    figure
+                      img(src='@/assets/curso/tema1/img7.svg', style="width: 900px" ,alt='En la Figura 3 se muestran los principales componentes de un estado de resultados, que incluyen los ingresos, los costos y los gastos de una organización.').m-auto
       
 </template>
 
