@@ -62,7 +62,7 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-right")
         .cajon.color-primario.p-4
-          p.mb-0 Es importante tener en cuenta que existen diferentes herramientas digitales, como los #[i softwares] contables o administrativos, los cuales facilitan la labor de análisis y proyecciones de la organización.
+          p.mb-0 Es importante tener en cuenta que existen diferentes herramientas digitales, como los #[i software] contables o administrativos, los cuales facilitan la labor de análisis y proyecciones de la organización.
 
 </template>
 
